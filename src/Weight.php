@@ -3,7 +3,6 @@
 
 namespace Sohel\UnitConversion;
 
-
 class Weight
 {
     private float $kilograms;
@@ -15,7 +14,6 @@ class Weight
 
     public function __construct(float $kilograms)
     {
-
         $this->kilograms = $kilograms;
     }
 
